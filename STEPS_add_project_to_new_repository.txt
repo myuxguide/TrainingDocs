@@ -1,6 +1,16 @@
 1)	Create a New Repository from GIT
 2)	Run Following Commands
 	------------------------------------------
+	echo "# TrainingDocs" >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git branch -M main
+	git remote add origin https://github.com/myuxguide/TrainingDocs.git
+	git push -u origin main
+	==========================================
+	In Details
+	------------------------------------------
 	[Initialize git]
 	git init -b main
 	
