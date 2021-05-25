@@ -20,7 +20,8 @@
 	git commit -m "First commit"
 	Commits the tracked changes and prepares them to be pushed to a remote repository. To remove this commit and modify the file, use 'git reset --soft HEAD~1' and commit and add the file again.
 	
-	[copy the remote repository URL & use below commands]
+	[copy the remote repository URL & us
+	e below commands]
 	
 	(Sets the new remote)
 	git remote add origin https://github.com/myuxguide/AngularComponents.git
@@ -30,6 +31,16 @@
 	
 	[Pushes the changes in your local repository up to the remote repository you specified as the origin]
 	git push origin main
-	
+	=================================================
+	RENAME BRANCH NAME
+	-------------------------------------------------
+	git checkout <Old Branch Name>
+	git branch -m <new_name>
+	git push origin -u <new_name>
+	git push origin --delete <old_name>
+	================================================
+	Cloud Deployment
+	------------------------------------------------
+	https://www.npmjs.com/package/@jefiozie/ngx-aws-deploy
 	
 	
